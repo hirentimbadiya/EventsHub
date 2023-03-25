@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import Link from 'next/link';
 const EventsPage = ({ data }) => {
     return <>
         <Head>
@@ -14,10 +14,10 @@ const EventsPage = ({ data }) => {
             <div>
                 {data.map((cat) => {
                     return (
-                        <a key={cat.id} href={`/events/${cat.id}`}>
+                        <Link key={cat.id} href={`/events/${cat.id}`}>
                             <h2>{cat.title}</h2>
                             <Image src={cat.image} alt={cat.title} width={280} height={500} />
-                        </a>
+                        </Link>
                     )
                 })}
             </div>
