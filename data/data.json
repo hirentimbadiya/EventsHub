@@ -1,0 +1,149 @@
+{
+  "events_categories": [
+    {
+      "id": "bengaluru",
+      "title": "Events in Bengaluru",
+      "description": "Explore All the Amazing Conferences in Bengaluru",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ubcity2.jpg"
+    },
+    {
+      "id": "hyderabad",
+      "title": "Events in Hyderabad",
+      "description": "Explore Various Events Happening Hyderabad",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/A_typical_charminar_evening.jpg"
+    },
+    {
+      "id": "delhi",
+      "title": "Events in Delhi",
+      "description": "Explore Amazing Events in Capital of India!!",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg"
+    }
+  ],
+  "allEvents": [
+    {
+      "id": "bengaluru-summer-of-software",
+      "title": "Bengaluru Summer of Software",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.springboard.com/blog/wp-content/uploads/2021/05/shutterstock_1404621860-scaled.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "go-green-rcb-match",
+      "title": "Go Green RCB Match",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2020/10/24/933387-rcb-to-sport-green-jersey-against-csk.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "new-years-eve-in-bengaluru",
+      "title": "New Years Eve in bengaluru",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://images.indianexpress.com/2019/12/mumbai.jpeg",
+      "emails_registered": []
+    },
+    {
+      "id": "'edtech-world-summit-2022",
+      "title": "EdTech World Summit 2022",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://t4.ftcdn.net/jpg/04/57/36/15/360_F_457361588_LxtR4yr03TidZCESyIhIcZyJxTplUM8t.jpg",
+      "emails_registered": ["hirentimbadiya74@gmail.com", "hirutimbadiya18@gmail.com"]
+    },
+    {
+      "id": "rcb-fans-meetup",
+      "title": "RCB Fans Meetup",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.firstpost.com/wp-content/uploads/2022/05/RCB-fans.jpg",
+      "emails_registered": ["hirutimbadiya18@gmail.com"]
+    },
+    {
+      "id": "diwali-celebrations",
+      "title": "Diwali Celebrations",
+      "city": "Bengaluru",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.shethepeople.tv/wp-content/uploads/2016/10/132757614_31n.jpg",
+      "emails_registered": []
+    },
+    {
+      "id": "sf-blockchain-week",
+      "title": "Blockchain Week",
+      "city": "Hyderabad",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202106/MIT-Algorand-01_0.jpg?itok=kc8Jm3nW",
+      "emails_registered": [
+        "hirentimbadiya74@gmail.com"
+      ]
+    },
+    {
+      "id": "innovation-summit-hyderabad",
+      "title": "Innovation Summit Hyderabad",
+      "city": "Hyderabad",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+      "emails_registered": []
+    },
+    {
+      "id": "fan-expo-hyderabad",
+      "title": "FAN EXPO Hyderabad",
+      "city": "Hyderabad",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://images.unsplash.com/photo-1608889825103-eb5ed706fc64?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
+      "emails_registered": []
+    },
+    {
+      "id": "ramoji-film-city-tickets",
+      "title": "Hyderabad - Ramoji Film City Tickets",
+      "city": "Hyderabad",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.en.etemaaddaily.com/pages/world/hyderabad/211hyd_ramoji_010_0.jpg",
+      "emails_registered": ["hirentimbadiya74@gmail.com"]
+    },
+    {
+      "id": "save-soil-event",
+      "title": "Save Soil Event",
+      "city": "Delhi",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://i0.wp.com/navjeevanexpress.com/wp-content/uploads/2022/03/20220301_CHI_2146-e-scaled.jpg?fit=2560%2C1703&ssl=1",
+      "emails_registered": ["hirentimbadiya74@gmail.com", "hirutimbadiya18@gmail.com"]
+    },
+    {
+      "id": "the-halloween-house-party",
+      "title": "The Halloween House Party",
+      "city": "Delhi",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLkKi8oN-lfrDiNOZRZ6p0-wZSCwspquQlQ&usqp=CAU",
+      "emails_registered": [
+        "hirentimbadiya74@gmail.com",
+        "hirutimbadiya18@gmail.com"
+      ]
+    },
+    {
+      "id": "independence-day-celebrations",
+      "title": "Independence Day Celebrations",
+      "city": "Delhi",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://images.indianexpress.com/2018/08/india1.jpg",
+      "emails_registered": ["hirentimbadiya74@gmail.com", "hirutimbadiya18@gmail.com"]
+    },
+    {
+      "id": "womensday-celebration",
+      "title": "WomensDay Celebration",
+      "city": "Delhi",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.cakengifts.in/blog/wp-content/uploads/2020/06/women%E2%80%99s-day-celebration.png",
+      "emails_registered": ["hirentimbadiya74@gmail.com", "hirutimbadiya18@gmail.com"]
+    },
+    {
+      "id": "option-traders-conference",
+      "title": "Option Traders Conference",
+      "city": "Delhi",
+      "description": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscisfa.",
+      "image": "https://www.investopedia.com/thmb/Cb6HWTpoj7z1zIJT1IAbhYH2NwU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/shutterstock_318403496.jpgoptionstrading-5c6475ff46e0fb0001f25679.jpg",
+      "emails_registered": ["hirentimbadiya74@gmail.com", "hirutimbadiya18@gmail.com"]
+    }
+  ]
+}
