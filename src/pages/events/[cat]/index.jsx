@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link';
 
-const EventsCatPage = ({ data  , pageName}) => {
+const EventsCatPage = ({ data, pageName }) => {
     return (
         <div>
             <h1>Events in {pageName}</h1>
@@ -41,9 +41,9 @@ export const getStaticProps = async (context) => {
     const { allEvents } = await import("/data/data.json");
     const data = allEvents.filter(cat => cat.city === id.charAt(0).toUpperCase() + id.slice(1));
     return {
-        props: { 
-            data , 
-            pageName : id.charAt(0).toUpperCase() + id.slice(1)
+        props: {
+            data,
+            pageName: id.charAt(0).toUpperCase() + id.slice(1)
         }
     };
 }
