@@ -11,7 +11,8 @@ const EventsPage = ({ data }) => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <div>
-            <h1>Events</h1>
+            <h1 className='font-bold text-[25px] max-h-[700px] 
+            pl-5 font-ubuntu py-2'>Explore Events</h1>
             <div>
                 {data.map((cat) => {
                     return (
