@@ -7,7 +7,7 @@ const Header = () =>
     <>
         <header className='w-full flex'>
             <Link href='/'>
-                <Image src={"/images/logo.png"} alt="image" width={150} height={20} className="pl-5" />
+                <Image src={"/images/logo.png"} alt="image" width={120} height={30} className="ml-10" />
             </Link>
             <nav className='w-full flex justify-end items-center'>
                 <Link href='/' className='header_link'> Home </Link>

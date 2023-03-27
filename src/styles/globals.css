@@ -92,15 +92,6 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
 
 a {
   color: inherit;
@@ -111,4 +102,51 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #29f6fd 55.12%,
+    #5ce1e6 71.54%,
+    #02d2f2 100%
+  );
+  animation: shine 2s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0px;
+  }
+  50% {
+    background-position: 90px;
+  }
+  100% {
+    background-position: 800px;
+  }
+}
+
+
+.text-grd{
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #9ff3a7 0.89%,
+    #9bed97 17.23%,
+    #a8f09d 42.04%,
+    #50fd29 55.12%,
+    #5ce663 71.54%,
+    #22f202 100%
+  );
+  animation: shine 2s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }

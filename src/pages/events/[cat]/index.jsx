@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -12,12 +11,11 @@ const EventsCatPage = ({ data, pageName }) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
-                <h1>Events in {pageName}</h1>
+                <h1 className='text-[32px] font-bold text-gradient pt-5'>Events in {pageName}</h1>
                 {data.map((cat) => (
                     <Link key={cat.id} href={`/events/${cat.city.charAt(0).toLowerCase() + cat.city.slice(1)}/${cat.id}`} passHref>
-                        <h2>{cat.title}</h2>
-                        <Image src={cat.image} alt={cat.title} width={200} height={200} />
-                        <p>{cat.description}</p>
+                        <h2 className='text-[24px] mt-5'>{cat.title}</h2>
+                        <img src={cat.image} alt={cat.title} width={200} height={200} />
                     </Link>
                 )
                 )}

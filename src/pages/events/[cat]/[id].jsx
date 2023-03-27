@@ -11,10 +11,10 @@ const EventPage = ({ eventData }) => {
             <div>
                 {eventData.map((event) => {
                     return (
-                        <div key={event.id}>
+                        <div key={event.id} className="pt-5 pl-5">
                             <img src={event.image} alt={event.title} className="w-[50%] h-[25%]" />
-                            <h1>{event.title}</h1>
-                            <p>{event.description}</p>
+                            <h1 className="font-bold text-[36px] text-[#00ff00] text-grd">{event.title}</h1>
+                            <p className="text-[#fde800] max-w-[550px]">{event.description}</p>
                         </div>
                     )
                 })}
