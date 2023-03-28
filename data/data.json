@@ -3,19 +3,19 @@
     {
       "id": "bengaluru",
       "title": "Events in Bengaluru",
-      "description": "Explore All the Amazing Conferences in Bengaluru",
+      "description": "Explore All the Amazing Conferences in Bengaluru.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ubcity2.jpg"
     },
     {
       "id": "hyderabad",
       "title": "Events in Hyderabad",
-      "description": "Explore Various Events Happening Hyderabad",
+      "description": "Explore Various Events Happening Hyderabad.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/A_typical_charminar_evening.jpg"
     },
     {
       "id": "delhi",
       "title": "Events in Delhi",
-      "description": "Explore Amazing Events in Capital of India!!",
+      "description": "Explore Amazing Events in Capital of India.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1920px-Delhi_fort.jpg"
     }
   ],
@@ -115,22 +115,22 @@
       ]
     },
     {
-      "id": "the-halloween-house-party",
-      "title": "The Halloween House Party",
+      "id": "independence-day-celebrations",
+      "title": "Independence Day Celebrations",
       "city": "Delhi",
-      "description": "Let's celebrate Halloween in Delhi and have a great time with your friends and family. Also, get a chance to win exciting prizes.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLkKi8oN-lfrDiNOZRZ6p0-wZSCwspquQlQ&usqp=CAU",
+      "description": "celebrate Indipendence Day in Delhi and let's pay our respect to our freedom fighters.",
+      "image": "https://images.indianexpress.com/2018/08/india1.jpg",
       "emails_registered": [
         "hirentimbadiya74@gmail.com",
         "hirutimbadiya18@gmail.com"
       ]
     },
     {
-      "id": "independence-day-celebrations",
-      "title": "Independence Day Celebrations",
+      "id": "the-halloween-house-party",
+      "title": "The Halloween House Party",
       "city": "Delhi",
-      "description": "celebrate Indipendence Day in Delhi and let's pay our respect to our freedom fighters.",
-      "image": "https://images.indianexpress.com/2018/08/india1.jpg",
+      "description": "Let's celebrate Halloween in Delhi and have a great time with your friends and family. Also, get a chance to win exciting prizes.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLkKi8oN-lfrDiNOZRZ6p0-wZSCwspquQlQ&usqp=CAU",
       "emails_registered": [
         "hirentimbadiya74@gmail.com",
         "hirutimbadiya18@gmail.com"

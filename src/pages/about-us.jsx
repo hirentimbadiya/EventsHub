@@ -8,8 +8,8 @@ const AboutUsPage = () => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <div className="w-full h-[81vh]">
-            <h1 className="text-gradient text-[35px] pl-5 font-bold">About Us</h1>
-            <p className="max-w-[800px] pl-5 leading-30 "> We as a EventHub team always make sure that we bring all the possible amazing events to
+            <h1 className="text-gradient text-[35px]  pl-5 pr-5 font-bold">About Us</h1>
+            <p className="max-w-[800px] pl-5 leading-30 pr-5"> We as a EventHub team always make sure that we bring all the possible amazing events to
                 you. we are passionate about events and we always try to bring the best events to you. We are always trying to make our
                 website better and better and we are always trying to make our website more user friendly. stay tuned for more updates of events in other cities as well.
             </p>

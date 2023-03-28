@@ -10,13 +10,17 @@ const EventsCatPage = ({ data, pageName }) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div>
+            <div className='flex flex-col  items-center justify-center'>
                 <h1 className='text-[32px] font-bold text-gradient pt-5'>Events in {pageName}</h1>
                 {data.map((cat) => (
-                    <Link key={cat.id} href={`/events/${cat.city.charAt(0).toLowerCase() + cat.city.slice(1)}/${cat.id}`} passHref>
-                        <h2 className='text-[24px] mt-5'>{cat.title}</h2>
-                        <img src={cat.image} alt={cat.title} width={200} height={200} />
-                    </Link>
+                    <div className='flex flex-col justify-center items-center'>
+                        <h2 className='text-[32px] msm:text-[26px] mt-5 mb-3 font-ubuntu tracking-wide evt-grd'>{cat.title}</h2>
+                        <Link key={cat.id} href={`/events/${cat.city.charAt(0).toLowerCase() + cat.city.slice(1)}/${cat.id}`} legacyBehavior>
+                            <a className='flex flex-col image mmd:items-center mmd:justify-center'>
+                                <img src={cat.image} alt={cat.title} width={200} height={200} className=" rounded-2xl event_img" />
+                            </a>
+                        </Link>
+                    </div>
                 )
                 )}
             </div >
