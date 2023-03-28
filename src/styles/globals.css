@@ -92,7 +92,6 @@ body {
   overflow-x: hidden;
 }
 
-
 a {
   color: inherit;
   text-decoration: none;
@@ -132,9 +131,19 @@ a {
     background-position: 800px;
   }
 }
+@keyframes shine-card {
+  0% {
+    background-position: 0px;
+  }
+  50% {
+    background-position: 90px;
+  }
+  100% {
+    background-position: 200px;
+  }
+}
 
-
-.text-grd{
+.text-grd {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #9ff3a7 0.89%,
@@ -151,7 +160,24 @@ a {
   background-clip: text;
 }
 
-.evt-grd{
+.card-grd {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #e8844f 0.89%,
+    #e5562f 17.23%,
+    #d66e32 42.04%,
+    #df7504 55.12%,
+    #f60303 71.54%,
+    #f20202 100%
+  );
+  animation: shine-card 2s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.evt-grd {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #f39fdf 0.89%,
@@ -168,8 +194,7 @@ a {
   background-clip: text;
 }
 
-
-.home_Link{
+.home_Link {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #9ff39f 0.89%,

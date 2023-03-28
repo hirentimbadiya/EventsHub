@@ -1,3 +1,4 @@
+import EventsPageComponent from '@/components/events/events-page';
 import Head from 'next/head'
 import Link from 'next/link';
 
@@ -9,25 +10,7 @@ const EventsPage = ({ data }) => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.png" />
         </Head>
-        <div className='flex flex-col mmd:items-center mmd:justify-center'>
-            <h1 className='font-bold sm:text-[45px] text-[32px] max-h-[700px] 
-             font-ubuntu py-2 text-gradient tracking-wider mxs:text-[25px] '>Explore Events</h1>
-            <div>
-                {data.map((cat) => {
-                    return (
-                        <div className='flex flex-col font-mono mmd:items-center mmd:justify-center'>
-                            <h2 className='text-[30px] mxs:text-[20px] text-grd mb-[4px] '>{cat.title}</h2>
-                            <Link key={cat.id} href={`/events/${cat.id}`} legacyBehavior>
-                                <a>
-                                    <img src={cat.image} alt={cat.title} width={280} height={500} className="
-                                     rounded-[14px] mb-6 event_img image" />
-                                </a>
-                            </Link>
-                        </div>
-                    )
-                })}
-            </div>
-        </div>
+        <EventsPageComponent data={data} />
     </>;
 }
 
