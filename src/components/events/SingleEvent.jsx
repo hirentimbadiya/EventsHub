@@ -16,7 +16,7 @@ const SingleEvent = ({ eventData }) => {
         if (!regex.test(emailValue)) {
             alert("Please Enter Correct Email");
         }
-        
+
         try {
             // ! POST request using fetch with async/await
             const response = await fetch('/api/email-reg', {

@@ -33,9 +33,9 @@ export default function handler(req, res) {
         const { email, eventId } = req.body;
 
         if (!regex.test(email)) {
-            res.status(422).json({message : "Invalid Email!"});
+            res.status(422).json({ message: "Invalid Email!" });
             return;
-        }   
+        }
         const all_Events = allEvents.map((eve) => {
             if (eve.id === eventId) {
                 if (eve.emails_registered.includes(email)) {
@@ -49,7 +49,7 @@ export default function handler(req, res) {
             return eve;
         });
 
-        fs.writeFileSync(filePath , JSON.stringify({events_categories , allEvents: all_Events}));
+        fs.writeFileSync(filePath, JSON.stringify({ events_categories, allEvents: all_Events }));
         res.status(200).json({
             message: `You have successfully registered for the
         event with email id : ${email}.`
