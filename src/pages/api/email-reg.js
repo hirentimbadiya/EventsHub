@@ -13,8 +13,6 @@ const extractData = (filePath) => {
     return data;
 }
 
-
-
 export default function handler(req, res) {
     const { method } = req;
     // * Access our data
@@ -30,10 +28,14 @@ export default function handler(req, res) {
         return res.status(404).json({ status: 404, message: "Events Data not Found!!" });
     }
 
-
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (method === 'POST') {
         const { email, eventId } = req.body;
 
+        if (!regex.test(email)) {
+            res.status(422).json({message : "Invalid Email!"});
+            return;
+        }   
         const all_Events = allEvents.map((eve) => {
             if (eve.id === eventId) {
                 if (eve.emails_registered.includes(email)) {

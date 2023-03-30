@@ -197,12 +197,12 @@ a {
 .home_Link {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #9ff39f 0.89%,
-    #a4ed97 17.23%,
-    #9df0af 42.04%,
-    #fdef29 55.12%,
-    #81e65c 71.54%,
-    #f2ee02 100%
+    #d6e26b 0.89%,
+    #e6dc25 17.23%,
+    #e6b619 42.04%,
+    #4dd703 55.12%,
+    #8cc414 71.54%,
+    #02f25a 100%
   );
   animation: shine 2s infinite linear;
   animation-fill-mode: forwards;
