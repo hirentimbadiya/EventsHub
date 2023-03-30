@@ -9,8 +9,8 @@ const EventsPageComponent = ({ data }) => (
       <div className='flex'>
         {data.map((cat) => {
           return (
-            <div className='flex flex-row font-mono rounded-[14px] items-center justify-center'>
-              <Link key={cat.id} href={`/events/${cat.id}`} legacyBehavior>
+            <div key={cat.id} className='flex flex-row font-mono rounded-[14px] items-center justify-center'>
+              <Link  href={`/events/${cat.id}`} legacyBehavior>
                 <a className='relative'>
                   <div className='border-2px border-[#a08686] rounded-[24px] object-cover event_img'>
                     <img src={cat.image} alt={cat.title} width={280} height={500} className="

@@ -42,7 +42,7 @@
       "city": "Bengaluru",
       "description": "Celebrate New Year's Eve in Bengaluru with your friends and family and enjoy the fireworks and music.",
       "image": "https://images.indianexpress.com/2019/12/mumbai.jpeg",
-      "emails_registered": []
+      "emails_registered": ["okay@hiru.gmail", "heyhiru@gmail.com"]
     },
     {
       "id": "'edtech-world-summit-2022",
@@ -85,7 +85,7 @@
       "city": "Hyderabad",
       "description": "take a visit at Innovation Summit Hyderabad and learn about the latest technologies in the market. Meet the top companies and learn about their products and services.",
       "image": "https://images.unsplash.com/photo-1521464302861-ce943915d1c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
-      "emails_registered": []
+      "emails_registered": ["hibro@bro.com"]
     },
     {
       "id": "fan-expo-hyderabad",
@@ -122,7 +122,8 @@
       "image": "https://images.indianexpress.com/2018/08/india1.jpg",
       "emails_registered": [
         "hirentimbadiya74@gmail.com",
-        "hirutimbadiya18@gmail.com"
+        "hirutimbadiya18@gmail.com",
+        "okbhai@gmail.com"
       ]
     },
     {

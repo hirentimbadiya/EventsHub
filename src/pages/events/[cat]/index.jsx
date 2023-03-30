@@ -37,6 +37,7 @@ export const getStaticPaths = async () => {
 
 export const getStaticProps = async (context) => {
     const id = context.params.cat;
+    console.log(id);
     const { allEvents } = await import("/data/data.json");
     const data = allEvents.filter(cat => cat.city === id.charAt(0).toUpperCase() + id.slice(1));
     return {
