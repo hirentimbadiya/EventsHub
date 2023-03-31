@@ -50,13 +50,13 @@ const SingleEvent = ({ eventData }) => {
                         <form action="" onSubmit={submitResponse}>
                             <label htmlFor="" className='text-[24px] msm:text-[18px] py-1 tracking-wider 
                             card-grd font-ubuntu font-semibold'>Get Registered for Event!!</label>
-                            <div className="flex flex-row gap-2 pb-4 items-center justify-center">
-                                <label htmlFor="" className="font-semibold text-[18px]">Email:</label>
-                                <input ref={inputEmail} type="email" name="" id="" className="rounded-md p-2 text-primary border-none"
+                            <div className="flex flex-row mmd:flex-col gap-2 pb-4 items-center justify-center">
+                                <label htmlFor="" className="font-semibold text-[18px] mmd:hidden">Email:</label>
+                                <input ref={inputEmail} type="email" name="" id="" className="rounded-md mt-1 p-2 text-primary border-none"
                                     placeholder='tony3000@email.com' />
                                 <button type="submit" className="rounded-md border-[1px] p-2 border-[#000000] bg-[#55ebe9]
                                  text-primary hover:text-[#00ff00] hover:bg-[#250803] 
-                                 font-semibold solo-img font-ubuntu ">Submit</button>
+                                 font-semibold solo-img font-ubuntu">Submit</button>
                             </div>
                         </form>
                         <p className="text-[18px] max-w-[500px] mxs:text-[14px] font-sans text-[#00ff00]">{message}</p>
