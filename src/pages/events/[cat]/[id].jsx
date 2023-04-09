@@ -10,7 +10,8 @@ const EventPage = ({ eventData }) => {
                 <link rel="icon" href="/favicon.png" />
             </Head>
             <SingleEvent eventData={eventData} />
-        </>);
+        </>
+    );
 }
 
 export default EventPage;

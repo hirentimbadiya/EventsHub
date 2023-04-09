@@ -1,6 +1,5 @@
 import EventsPageComponent from '@/components/events/events-page';
 import Head from 'next/head'
-import Link from 'next/link';
 
 const EventsPage = ({ data }) => {
     return <>
